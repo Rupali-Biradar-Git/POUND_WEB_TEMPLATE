@@ -1,0 +1,300 @@
+            @charset "utf-8";
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+             :root {
+                --headingfont: "Montserrat", sans-serif;
+                --greybg: #CFCFCF;
+                --commonfont: "Open Sans", Helvetica, Arial, sans-serif;
+                --stdblack: #313131;
+                --socialmedia: #9a9a9a;
+                --darkred: rgb(152, 58, 66);
+                --greytext: rgb(152, 152, 152);
+                --01fontcolor: #C9ADAD;
+                --breedprofbg: #F7F7F4;
+                --prevnxticon: #D7CCC2;
+            }
+            
+            * {
+                border: 0;
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                box-sizing: border-box;
+                font-family: var(--commonfont);
+            }
+            
+            li {
+                list-style: none;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            img,
+            video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            
+            .homepage-bg {
+                background-image: url(../images/background/index-01.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .font-heading {
+                font-family: var(--headingfont);
+                word-spacing: 5px;
+                letter-spacing: 5px;
+                line-height: 50px;
+                text-shadow: 2px 2px #4e4e4e26;
+            }
+            
+            .amp {
+                color: var(--greybg);
+            }
+            
+            .dog-breeder-website {
+                font-family: var(--commonfont);
+                letter-spacing: 5px;
+                text-shadow: 2px 2px #4e4e4e26;
+            }
+            
+            .sec-one-h {
+                color: var(--stdblack);
+            }
+            
+            .follow-us {
+                letter-spacing: 4px;
+            }
+            
+            .socialmedia-bg {
+                background-color: var(--socialmedia);
+            }
+            
+            .contactus-red {
+                color: var(--darkred);
+            }
+            
+            .address {
+                letter-spacing: 2px;
+                font-size: 15px;
+                line-height: 30px;
+                text-align: center;
+                padding-left: 10px;
+            }
+            
+            .wlcome {
+                font-size: 17px;
+                letter-spacing: 2px;
+                line-height: 30px;
+            }
+            
+            .homepg-para-cus {
+                line-height: 25px;
+                letter-spacing: 1px;
+            }
+            
+            .viewaldogs-but {
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+            
+            .border-danger {
+                border-color: rgb(152, 58, 66) !important;
+            }
+            
+            .opacity-50 {
+                opacity: 1 !important;
+            }
+            
+            .eng-bulldog-breed {
+                font-size: 17px;
+                letter-spacing: 2px;
+                line-height: 25px;
+            }
+            
+            .eng-bulldog-span {
+                color: var(--darkred);
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 1px;
+            }
+            
+            .eng-bulldog-para {
+                letter-spacing: 0.5px;
+                color: var(--stdblack);
+            }
+            
+            .take-top-btn {
+                position: fixed;
+                bottom: 20px;
+                right: 15px;
+            }
+            
+            .take-top-btn:hover {
+                background-color: var(--darkred);
+                transition: ease;
+            }
+            
+            .delivery-possible {
+                letter-spacing: 1px;
+                color: var(--greytext);
+                font-size: 13px;
+            }
+            
+            .dob {
+                font-size: 18px;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+                color: var(--stdblack);
+            }
+            
+            .detail-but {
+                font-size: 13px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                position: relative;
+                top: 17px;
+            }
+            
+            .viewaldogs-but {
+                font-size: 12px;
+                letter-spacing: 1px;
+                font-weight: 700;
+            }
+            
+            .articals-h4 {
+                letter-spacing: 1px;
+                font-size: 15px;
+            }
+            
+            .articals-para {
+                color: var(--greytext);
+                word-spacing: 3px;
+                font-size: 15px;
+            }
+            /* last sec */
+            
+            .last-dog-img {
+                width: 60%;
+                object-fit: cover;
+            }
+            
+            .sec-four {
+                background-color: var(--breedprofbg);
+            }
+            
+            @media (min-width: 768px) {
+                .sec-two-h1div {
+                    width: 60%;
+                    margin-top: 100px;
+                }
+                .font-heading {
+                    line-height: 60px;
+                }
+                .dog-breeder-website {
+                    padding: 0;
+                    margin: 0;
+                }
+                .address {
+                    line-height: 20px;
+                    text-align: left;
+                }
+                .welcm-01 {
+                    font-size: 35px;
+                    font-family: var(--headingfont);
+                    color: var(--01fontcolor);
+                }
+                .wlcm-hr {
+                    border-bottom: 1px solid #C9ADAD;
+                }
+                .wlcom-img {
+                    width: 500px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                .welcm-01 {
+                    padding-top: 350px;
+                    padding-left: 95px;
+                }
+                .iframe-cus {
+                    width: 100%;
+                    height: 400px;
+                    padding-top: 50px;
+                }
+                .copyright-div {
+                    width: 40%;
+                    margin-left: 30%;
+                }
+                .menu-navigation {
+                    color: var(--darkred);
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                }
+                .main-navigation {
+                    position: sticky;
+                    top: 0;
+                }
+            }
+            
+            @media (min-width: 1200px) {
+                .wlcm-hr {
+                    width: 30%;
+                }
+                .wlcom-img {
+                    margin-left: 600px;
+                }
+                .eng-bulldog-breed {
+                    font-size: 20px;
+                }
+                .dog-table {
+                    margin-top: 100px;
+                }
+                .cta-heading {
+                    margin-top: 180px;
+                }
+                .wlcome {
+                    font-size: 20px;
+                }
+                .last-dog-photo {
+                    margin-top: -150px;
+                }
+                .menu-navigation {
+                    color: var(--darkred);
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                }
+                .border-menu {
+                    border-right: 2px solid var(--greybg);
+                    height: 45px;
+                    rotate: 20deg;
+                }
+                .main-navigation {
+                    position: sticky;
+                    top: 0;
+                    height: 12vh;
+                }
+                .previous-icon {
+                    position: relative;
+                    right: 155px;
+                    bottom: 80px;
+                    background-color: var(--prevnxticon);
+                    padding: 30px;
+                    border-radius: 50%;
+                    font-weight: bold;
+                    color: white;
+                }
+                .nxt-icon {
+                    position: relative;
+                    left: 155px;
+                    bottom: 70px;
+                    background-color: var(--prevnxticon);
+                    padding: 30px;
+                    border-radius: 50%;
+                    font-weight: bold;
+                    color: white;
+                }
+            }
